@@ -81,8 +81,12 @@ systemctl restart wg-quick@wg0
   - XRAY Vmess Grpc Tls     : 8443
   - XRAY Vless Grpc Tls     : 9443
   - XRAY Vless Tcp Xtls     : 443
-  - XRAY Trojan Tcp Tls     : 80
+  - XRAY Trojan Tcp Tls     : 2087
   - XRAY Trojan Grpc Tls    : 8080
+  - XRAY Vmess Ws Tls       : 7443
+  - XRAY Vmess Ws None Tls  : 80
+  - XRAY Vless Ws Tls       : 2083
+  - XRAY Vless Ws None Tls  : 880
 
  >>> Server Information & Other Features
    - Timezone                 : Asia/Kuala_Lumpur (GMT +8)
